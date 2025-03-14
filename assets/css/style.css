@@ -1,0 +1,172 @@
+
+body {
+    font-family: 'Terminal', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #b8c3f5;
+    color: #fff;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+}
+
+h2{
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+}
+
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 550px;
+}
+
+.conteudo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #828fcf;
+    z-index: 2; 
+    border-radius: 50px;
+    border: solid black 0.45em;
+}
+
+.contato{
+    margin-left: 25px;
+}
+
+.lado {
+    position: absolute;
+    left: 25px; 
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+    border-radius: 50px; 
+    border: solid black 0.45em;
+    box-shadow: 2px 10px 30px rgb(82, 78, 78);
+}
+
+.tela {
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 85%; 
+    height: 85%; 
+    background-color: #cac7ec; 
+    border-radius: 30px; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000; 
+    font-size: 1.2em; 
+    border: solid black 0.45em;
+}
+
+.titulo{
+    margin-bottom: 60px;
+}
+
+.botoes {
+    position: absolute;
+    bottom: 20px; 
+    width: 100%;
+    text-align: center;
+}
+
+.botoes ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+}
+
+.botoes ul li a {
+    color: #000000;
+    font-size: 1em;
+    padding: 5px 5px;
+    background-color: #b2b9d8;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: solid black 0.45em;
+}
+
+.botoes ul li a:hover {
+    background-color: #6a75b0;
+}
+
+.modo-escuro-btn {
+    margin-top: 11px;
+    margin-left: 30px;
+    margin-right: 40px;
+    background: #b2b9d8; 
+    color: black;
+    border: none;
+    padding: 6px 6px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s, color 0.3s;
+    border: solid black 0.45em;
+}
+
+.dark-mode .modo-escuro-btn {
+    background: #444; 
+    color: white;
+}
+
+.modo-escuro-btn:hover {
+    background: #bbb;
+}
+
+.dark-mode .modo-escuro-btn:hover {
+    background: #666;
+}
+
+.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.dark-mode .conteudo {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .tela {
+    background-color: #555;
+    color: #fff;
+}
+
+.dark-mode a {
+    color: #ffffff;
+}
+
+
+.dark-mode .botoes ul li a {
+    background-color: #666;
+    color: #fff;
+}
+
+.dark-mode .botoes ul li a:hover {
+    background-color: #888;
+}
