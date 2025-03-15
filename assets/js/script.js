@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const conteudos = {
         home: `<div class="titulo">
+                    <img src="assets/img/foto-perfil.jpeg" alt="Minha Foto" class="perfil-img">
                     <h1>- Portfólio -</h1>
                     <h2>por Cauã Souza Almeida</h2>
                     <br>
