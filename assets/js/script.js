@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <h1>- Projetos -</h1>
                     <ul>
                         <li>Clone da rede social X</li>
-                        <li>Minijogos em C, HTML, CSS e JS</li>
+                        <li><a href="minijogo-matamosquito/index.html" target="_blank">Minijogos em C, HTML, CSS e JS (link) </a><i class="fa-solid fa-gamepad"></i></li>
                         <li>Machine Learning com Python</li>
                         <li>Criação de gráficos interativos com Power BI</li>
                     </ul>
