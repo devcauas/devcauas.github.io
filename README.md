@@ -13,15 +13,6 @@ FontAwesome (para ícones)
 ✅ Modo claro e escuro (dark mode)
 ✅ Layout responsivo para diferentes dispositivos
 
-📂 Estrutura do Projeto:
-📂 portifolio
-│── 📁 assets            # Arquivos de mídia (imagens, ícones, etc.)
-│── 📁 fontawesome       # Ícones da FontAwesome
-│── index.html           # Página principal
-│── styles.css           # Estilos do site
-│── script.js            # Código JavaScript
-│── README.md            # Este arquivo
-
 🖥️ Como Visualizar:
 Acesse o site publicado em GitHub Pages.
 
